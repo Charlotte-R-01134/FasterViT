@@ -33,6 +33,7 @@ cross-window carrier tokens.
 Note: Please use the [**latest NVIDIA TensorRT release**](https://docs.nvidia.com/deeplearning/tensorrt/container-release-notes/index.html) to enjoy the benefits of optimized FasterViT ops. 
 
 ## 💥 News 💥
+- **[03.25.2025]** We have updated the download links for each model. All models are accecible via HuggingFace. 
 - **[04.02.2024]** 🔥 Updated [manuscript](https://arxiv.org/abs/2306.06189) now available on arXiv !
 - **[01.24.2024]** 🔥🔥🔥 **Object Tracking with MOTRv2 + FasterViT** is now open-sourced ([link](./downstream/object_tracking/motrv2/README.md)) ! 
 - **[01.17.2024]** 🔥🔥🔥 FasterViT paper has been accepted to [ICLR 2024](https://openreview.net/group?id=ICLR.cc/2024/Conference#tab-your-consoles) !
@@ -150,7 +151,7 @@ We can test the model by passing a dummy input image. The output is the logits:
     <td>224x224</td>
     <td>31.4</td>
     <td>3.3</td>
-    <td><a href="https://drive.google.com/uc?export=download&id=1twI2LFJs391Yrj8MR4Ui9PfrvWqjE1iB">model</a></td>
+    <td><a href="https://huggingface.co/ahatamiz/FasterViT/resolve/main/fastervit_0_224_1k.pth.tar">model</a></td>
 </tr>
 
 <tr>
@@ -161,7 +162,7 @@ We can test the model by passing a dummy input image. The output is the logits:
     <td>224x224</td>
     <td>53.4</td>
     <td>5.3</td>
-    <td><a href="https://drive.google.com/uc?export=download&id=1r7W10n5-bFtM3sz4bmaLrowN2gYPkLGT">model</a></td>
+    <td><a href="https://huggingface.co/ahatamiz/FasterViT/resolve/main/fastervit_1_224_1k.pth.tar">model</a></td>
 </tr>
 
 <tr>
@@ -172,7 +173,7 @@ We can test the model by passing a dummy input image. The output is the logits:
     <td>224x224</td>
     <td>75.9</td>
     <td>8.7</td>
-    <td><a href="https://drive.google.com/uc?export=download&id=1n_a6s0pgi0jVZOGmDei2vXHU5E6RH5wU">model</a></td>
+    <td><a href="https://huggingface.co/ahatamiz/FasterViT/resolve/main/fastervit_2_224_1k.pth.tar">model</a></td>
 </tr>
 
 <tr>
@@ -183,7 +184,7 @@ We can test the model by passing a dummy input image. The output is the logits:
     <td>224x224</td>
     <td>159.5</td>
     <td>18.2</td>
-    <td><a href="https://drive.google.com/uc?export=download&id=1tvWElZ91Sia2SsXYXFMNYQwfipCxtI7X">model</a></td>
+    <td><a href="https://huggingface.co/ahatamiz/FasterViT/resolve/main/fastervit_3_224_1k.pth.tar">model</a></td>
 </tr>
 
 <tr>
@@ -194,7 +195,7 @@ We can test the model by passing a dummy input image. The output is the logits:
     <td>224x224</td>
     <td>424.6</td>
     <td>36.6</td>
-    <td><a href="https://drive.google.com/uc?export=download&id=1gYhXA32Q-_9C5DXel17avV_ZLoaHwdgz">model</a></td>
+    <td><a href="https://huggingface.co/ahatamiz/FasterViT/resolve/main/fastervit_4_224_1k.pth.tar">model</a></td>
 </tr>
 
 <tr>
@@ -205,7 +206,7 @@ We can test the model by passing a dummy input image. The output is the logits:
     <td>224x224</td>
     <td>975.5</td>
     <td>113.0</td>
-    <td><a href="https://drive.google.com/uc?export=download&id=1mqpai7XiHLr_n1tjxjzT8q369xTCq_z-">model</a></td>
+    <td><a href="https://huggingface.co/ahatamiz/FasterViT/resolve/main/fastervit_5_224_1k.pth.tar">model</a></td>
 </tr>
 
 <tr>
@@ -216,7 +217,7 @@ We can test the model by passing a dummy input image. The output is the logits:
     <td>224x224</td>
     <td>1360.0</td>
     <td>142.0</td>
-    <td><a href="https://drive.google.com/uc?export=download&id=12jtavR2QxmMzcKwPzWe7kw-oy34IYi59">model</a></td>
+    <td><a href="https://huggingface.co/ahatamiz/FasterViT/resolve/main/fastervit_6_224_1k.pth.tar">model</a></td>
 </tr>
 
 </table>
@@ -277,7 +278,7 @@ We can test the model by passing a dummy input image. The output is the logits:
 
 </table>
 
-
+Raw pre-trained ImageNet-21K model weights for FasterViT-4 is also available for download in this [link](https://drive.google.com/file/d/1T3jDrzlTmTcZVS1Dh01Fl3J2LXZHWKdL/view?usp=sharing).
 ### Robustness (ImageNet-A - ImageNet-R - ImageNet-V2)
 
 
@@ -440,7 +441,7 @@ Please consider citing FasterViT if this repository is useful for your work.
 
 ## Licenses
 
-Copyright © 2023, NVIDIA Corporation. All rights reserved.
+Copyright © 2025, NVIDIA Corporation. All rights reserved.
 
 This work is made available under the NVIDIA Source Code License-NC. Click [here](LICENSE) to view a copy of this license.
 
